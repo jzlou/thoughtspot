@@ -1,12 +1,9 @@
-import Link from 'next/link';
+import Layout from '../components/Layout'
 
 export default function Index() {
   return (
-    <div>
+    <Layout>
       <p>i am to wait, though waiting be so hell</p>
-      <Link href="/about">
-        <a>about</a>
-      </Link>
-    </div>
+    </Layout>
   )
 }
