@@ -12,7 +12,15 @@ const Header = () => (
     <Link href="/about">
       <a style={linkStyle}>about</a>
     </Link>
-  </div>
+    <style jsx> {`
+      a {
+        color: blue;
+      }
+      a:hover {
+        background-color: grey;
+      }
+    `} </style>
+ </div>
 );
 
 export default Header;
